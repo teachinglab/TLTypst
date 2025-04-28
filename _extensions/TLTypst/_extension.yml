@@ -12,9 +12,7 @@ contributes:
       margin:
         x: 2cm
         y: 2cm
-      font-paths:
-        - Lora
-        - Poppins
+      font-paths: Lora
       template-partials:
         - typst-template.typ
         - typst-show.typ
