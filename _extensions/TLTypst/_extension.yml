@@ -13,8 +13,8 @@ contributes:
         x: 2cm
         y: 2cm
       font-paths:
-	- Lora
-	- Poppins
+        - Lora
+        - Poppins
       template-partials:
         - typst-template.typ
         - typst-show.typ
