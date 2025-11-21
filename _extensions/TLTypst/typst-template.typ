@@ -58,15 +58,14 @@
     pad(bottom: 1cm, text(font: "Poppins", 20pt, weight: 800, upper(title))),
 
     // The logo in the sidebar.
-    locate(loc => {
+    {
       set align(right)
 
-      // Logo.
       style(styles => {
         if typst-logo == none {
           return
         }
-  
+
         let img = image(typst-logo.path, width: 1.5cm)
         let img-size = measure(img, styles)
         
@@ -77,8 +76,7 @@
           img,
         )
       })
-      
-    }),
+    },
     
     // The main body text.
     {
